@@ -13,3 +13,4 @@ env/
 
 
 
+validation/performance_logs/*.log

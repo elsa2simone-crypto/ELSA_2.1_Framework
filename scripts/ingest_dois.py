@@ -4,6 +4,9 @@ from pathlib import Path
 import pandas as pd
 import sys
 
+
+from log_run import log
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 
@@ -93,5 +96,9 @@ def main():
         target_csv = LAYER_TO_CSV.get(current_layer, DATA_DIR / "emotional_regulation.csv")
         append_row(target_csv, doi, domain_hint=current_layer)
 
+       
+
 if __name__ == "__main__":
     main()
+
+log("ingestion run – processed incoming_dois.txt")
