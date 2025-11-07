@@ -1,0 +1,2 @@
+doi,year,domain,metric_type,metric_value,validation_type,sample_size,duration_weeks,features,psychometric,notes,validated_by
+10.1016/j.jad.2020.06.072,,cognitive,,,,,,,,ingested from tagged txt,manual_import_v0.2
